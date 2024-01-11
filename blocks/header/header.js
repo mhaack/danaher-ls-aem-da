@@ -370,8 +370,8 @@ function buildLogosBlock(headerBlock) {
   const logoLis = logoUl.querySelectorAll(':scope > li');
   logoLis.forEach((logoLi) => {
     logoLi.className = 'group md:mx-5 mx-10';
-    const logoLink = logoLi.querySelector(':scope > a');
-    const logoPicture = logoLi.querySelector(':scope > picture');
+    const logoLink = logoLi.querySelector('a');
+    const logoPicture = logoLi.querySelector('picture');
     const logoImg = logoPicture.querySelector('img');
     logoImg.className = 'h-7 w-auto px-4';
     const logoTitle = logoLink.textContent;
