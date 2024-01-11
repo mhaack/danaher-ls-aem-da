@@ -1,5 +1,4 @@
 mountpoints:
   /:
-    url: https://1050314-569danaherxwalk.adobeioruntime.net/api/v1/web/convert/main/
+    url: https://content.da.live/mhaack/danaher-ls-aem-da/
     type: markup
-    suffix: ".html?wcmmode=disabled"
